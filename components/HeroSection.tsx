@@ -127,7 +127,7 @@ export default function HeroSection() {
               <div className="absolute right-4 md:right-12 lg:right-20 top-[10%] z-20 w-44 md:w-52 lg:w-64 hidden lg:block">
                 <div className="bg-white rounded-xl md:rounded-2xl p-4 md:p-5 lg:p-6 shadow-xl">
                   <div className="flex -space-x-2 mb-3" aria-hidden="true">
-                    {["/Avatar/Avatar/Icons.png", "/Avatar/Avatar/Icons-1.png", "/Avatar/Avatar/Icons-2.png", "/Avatar/Avatar/Icons-3.png"].map((src) => (
+                    {["/Icons.png", "/Icons-1.png", "/Icons-2.png", "/Icons-3.png"].map((src) => (
                       <div key={src} className="w-10 h-10 rounded-full border-2 border-white overflow-hidden flex-shrink-0 bg-gray-100">
                         <Image src={src} alt="" width={40} height={40} className="w-full h-full object-cover" />
                       </div>
